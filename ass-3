@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() 
+{
+    int x,y;
+    int i;
+    long long result=1;
+    printf("Enter x value:");
+    scanf("%d", &x);
+    printf("Enter y value:");
+    scanf("%d",&y);
+    for (i=1;i<=y;i++)
+    {
+      result*=x;
+    }
+    printf("Answer is: %lld",result);
+     return 0;
+}
